@@ -1,0 +1,111 @@
+@import colores
+@import url(http://fonts.googleapis.com/css?family=Palanquin+Dark);
+
+body 
+    background url('/dist/img/') no-repeat center center fixed
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin 0
+    padding 0
+    
+header
+    .content 
+        background rgba(0.8, 0.8, 0.8, 0.8)
+        width 100%
+        height 100%
+        position absolute
+        font-size 1.5em
+        
+        h1 
+            padding 44px 12px 64px 12px
+            text-align center
+            font-size 3em            
+            font-family 'Palanquin Dark' sans-serif
+            color color_1_1
+            .cancion, .autor
+                text-transform capitalize
+                transition color 1s ease
+                font-size 1.2em
+            .autor
+                color color_4_0
+                &:hover
+                    color color_4_1
+            .cancion 
+                color color_3_0
+                &:hover
+                    color color_3_1
+        .botonera
+            text-align center
+            button 
+                border-radius 50px
+                border 4px color_1_4
+                background color_1_1
+                color color_1_4
+                border-style dotted
+                height 100px
+                width 100px
+                font-size 2.5em
+                margin 0 24px 24px 24px
+                transition all 1s ease
+                &:hover 
+                    transform rotate(360deg)
+                    
+
+#creditos
+    display none
+    
+#spotify
+    position absolute
+    bottom 0 
+    left 0
+    .fa 
+        font-size 4em
+        transform rotate(180deg)
+        display block
+        color color_3_1         
+
+#cerrarFullScreen
+    // display none
+    cursor pointer
+    position fixed 
+    top 0 
+    height 22px
+    width 100%
+    background color_4_1
+    text-align center
+    color color_3_1
+    transition all 1s ease
+    margin-top -22px
+    font-size 1.5em
+    &.show
+        margin-top 0
+
+#youtube, #wikipedia
+    // display none
+    position fixed    
+    right 0 
+    bottom 0 
+    left 0 
+    top 22px
+    margin-top 2400px    
+    // height 100%
+    transition margin-top 1s ease 
+    &.show
+        margin-top 0
+
+#wikipedia
+    background white
+    .container 
+        width 100%
+        position relative
+        padding 22px 20%
+        height 100%
+        overflow scroll 
+        font-size 13px
+
+.show
+    display block
+
+@import media_query
