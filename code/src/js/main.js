@@ -5,12 +5,9 @@ window.melocotonazo = window.melocotonazo || {};
     melocotonazo.index = function (rootElement) {
         this.dom = rootElement;
         this.autor = "Fernando Alfaro";
-        this.autor = "Niño y pistola";
         this.autor_wiki = "Fernando Alfaro (músico)";
-        this.autor_wiki = "Niño_y_Pistola";
         this.cancion = "Velero";
-        this.cancion = "The sweetgum tree";
-        this.youtube_id = "_ghJnAP9g-w";
+        this.youtube_id = "CqXnwj8u2Gc";
 
         melocotonazo.updateTittles();
         melocotonazo.getSpotifyInfo();

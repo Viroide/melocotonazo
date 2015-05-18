@@ -77,7 +77,7 @@ gulp.task('js', function () {
 });
 
 gulp.task('css-build', function() {
-  return gulp.src(srcPath+'/css/*.styl')
+  return gulp.src(srcPath+'/css/main.styl')
     .pipe(sourcemaps.init())
     .pipe(stylus({ use: nib(), compress: true }))
     .pipe(rename({ basename: pkg.name  , suffix:".min"}))
