@@ -1,0 +1,22 @@
+{
+  "debug":{
+    "path_js":  "/dist/js/melocotonazo.js",
+    "path_css":"/dist/css/melocotonazo.css",
+    "livereload": true,
+    "bootstrap_css": "/libs/bootstrap/dist/css/bootstrap.min.css",
+    "bootstrap_js": "/libs/bootstrap/dist/js/bootstrap.min.js",
+    "jquey": "/libs/jquery/dist/jquery.min.js"
+    
+  },
+  "build":{
+    "path_js":  "/dist/js/melocotonazo.min.js",
+    "path_css":"/dist/css/melocotonazo.min.css",
+    "livereload": false,
+    "bootstrap_css": "//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css",
+    "bootstrap_js": "//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js",
+    "jquey": "//code.jquery.com/jquery-1.11.2.min.js"
+  },
+  "srcPath" :"./code/src/",
+  "distPath" :"./code/dist/",
+  "templatespath":"./code/"
+}
