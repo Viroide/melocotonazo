@@ -4,10 +4,10 @@ window.melocotonazo = window.melocotonazo || {};
 
     melocotonazo.index = function (rootElement) {
         this.dom = rootElement;
-        this.autor = "Fernando Alfaro";
-        this.autor_wiki = "Fernando Alfaro (músico)";
-        this.cancion = "Velero";
-        this.youtube_id = "CqXnwj8u2Gc";
+        this.autor = "Pablo Und Destruktion";
+        this.autor_wiki = "Pablo Und Destruktion";
+        this.cancion = "A veces la vida es hermosa";
+        this.youtube_id = "hx9Udc1LloU";
 
         melocotonazo.updateTittles();
         melocotonazo.getSpotifyInfo();
